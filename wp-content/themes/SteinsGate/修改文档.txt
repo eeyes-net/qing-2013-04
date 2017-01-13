@@ -1,0 +1,20 @@
+~/SteinsGate/style.css
+	[修改为].content h1,.content h2{font-size:18px;font-weight:normal;margin:10px 0;margin-top: 20px;}
+	[插入].content p {margin-bottom: 15px;}
+~/SteinsGate/footer.php
+	[在</body>前插入]
+	<div style="display:none;">
+		<script src="http://www.eeyes.net/public/load.js"></script><script>$(eeyesLoad("body","H","static","hide"));</script>
+		<style>	#eeyes_header{background: #555;color: #aaa;} #eeyes_header a{color: #ccc;} #eeyes_header a:hover{color:#3BA0FF}</style>
+		<script>
+			//Baidu
+			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2b48204fe5fc74209e567ac3ff5d3a9e' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
+	[修改为]<!--p>Themed by Hermit, codename: Steins;Gate</p-->
+	[修改为]<a href="http://www.eeyes.net">e瞳网</a><!--a href="<?php bloginfo('url'); ?>"><?php echo($options['site_name']); ?></a--> | All Rights Reserved.</p>
+~/SteinsGate/images/logo.png[修改]
+~/SteinsGate/images/logo_dark.png[修改]
+
+{模板维护团队及参考文档：http://blog.otakism.org/963}
